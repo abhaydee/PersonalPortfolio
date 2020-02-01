@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#contact{
+  margin-right: 1%;
+}
+
+@media screen and (min-width:1000px){
+  #contact{
+      position: absolute;
+      top: 0;
+      right: 2%;
+  }
+}
+
+@media screen and (max-width:995px){
+  .contact1{
+      position: absolute;
+      top: 20%;
+      right: 0;
+  }
+}
+
+@media screen and (min-width:1000px){
+  #Resume{
+      position: absolute;
+      top: 20%;
+      right: 15%;
+  }
+}
+
+@media screen and (max-width:995px){
+  .Resume1{
+      position: absolute;
+      top: 75%;
+      right: 0;
+  }
+}
+@media screen and (min-width:1000px){
+  #Projects{
+      position: absolute;
+      top: 20%;
+      right: 10%;
+  }
+}
+
+@media screen and (max-width:995px){
+  .Projects1{
+      position: absolute;
+      top: 50%;
+      right: 0;
+  }
+}
+
+.nav-item{
+  color: 'rgb(100, 255, 218)';
+}
