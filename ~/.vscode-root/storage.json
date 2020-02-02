@@ -561,7 +561,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1400,5 +1401,19 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/abhay/Desktop"
+    "pickerWorkingDir": "/home/abhay/Desktop",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/abhay/Desktop/absportfolio",
+            "backupPath": "/home/abhay/Desktop/absportfolio/~/.vscode-root/Backups/c5fca42ae0e6a7d87d33c1a5cb8f7da5",
+            "uiState": {
+                "mode": 0,
+                "x": 65,
+                "y": 24,
+                "width": 928,
+                "height": 1056
+            }
+        },
+        "openedWindows": []
+    }
 }
