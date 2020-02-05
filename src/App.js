@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import banner from './img/banner/banner-image.png'
 import './App.css';
+import About from './Components/About';
 
 class App extends Component{
   render(){
     return(
+      <div>
       <div>
          <main className="site-main">
            <section className="site-banner">
@@ -30,6 +32,9 @@ class App extends Component{
            </section>
          </main>
       </div>
+      <About></About>
+      </div>
+     
     )
   }
 }

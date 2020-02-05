@@ -66,3 +66,7 @@
   box-shadow: var(--box-shadow);
 
 }
+
+.site-main .about-area{
+padding: 8rem 5rem;
+}
