@@ -15,7 +15,7 @@ class App extends Component{
                   <h1 className="title-text text-uppercase">I am Abhay</h1>
                   <h4 className="title-text text-uppercase">Full Stack Developer</h4>
                   <div className="side-buttons">
-                    <div className="d-flex flex-row flex-wrap">
+                    <div className="d-flex flex-row flex-wrap button">
                       <button type="button" className="btn button primary-button mr-4 text-uppercase">Hire Me</button>
                       <button type="button" className="btn button secondary-button text-uppercase">Get CV</button>
                     </div>
