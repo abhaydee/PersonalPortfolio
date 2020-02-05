@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import banner from './img/banner/banner-image.png'
 import './App.css';
 
 class App extends Component{
@@ -21,8 +21,8 @@ class App extends Component{
                     </div>
                   </div>
                  </div>
-                 <div className="col-lg-6 col-md-12">
-
+                 <div className="col-lg-6 col-md-12 banner-image">
+                    <img src={banner} alt="banner-img" className="img-fluid"></img>
                  </div>
 
                </div>
