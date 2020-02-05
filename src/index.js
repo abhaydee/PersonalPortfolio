@@ -7,11 +7,38 @@ import {BrowserRouter,Route,Link} from 'react-router-dom';
 import Resume from './Components/Resume';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-
+import logo from './img/logo.png'
 const routing=(
     <div>
        <BrowserRouter>
-
+         <header className="header-area">
+            <div className="main-menu">
+            <nav className="navbar navbar-expand-lg navbar-light ">
+            <Link className="navbar-brand" to="/"><img src={logo} alt="logo" /></Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="mr-auto"></div>
+                <ul className="navbar-nav">
+                <li className="nav-item active">
+                    <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" href="#">About</Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" href="#">Projects</Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" href="#">Contact</Link>
+                </li>
+               
+                </ul>
+                </div>
+            </nav>
+            </div>
+         </header>
        <Route exact path="/" component={App}></Route>
        <Route exact path="/Resume" component={Resume}></Route>
        <Route exact path="/Projects" component={Projects}></Route>
