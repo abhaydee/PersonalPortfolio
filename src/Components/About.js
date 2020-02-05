@@ -4,7 +4,8 @@ import "../App.css"
 export default class About extends Component {
     render() {
         return (
-            <section className="site-main about-area">
+            <section className="site-main">
+            <section className="about-area">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
@@ -28,7 +29,8 @@ export default class About extends Component {
                         </div>
                     </div>
                 </div>
-            </section>   
+            </section>  
+            </section> 
         )
     }
 }
