@@ -22,16 +22,16 @@ const routing=(
                 <div className="mr-auto"></div>
                 <ul className="navbar-nav">
                 <li className="nav-item active">
-                    <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                    <Link className="nav-link a" href="#">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" href="#">About</Link>
+                    <Link className="nav-link a" href="#">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" href="#">Projects</Link>
+                    <Link className="nav-link a"  href="#">Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" href="#">Contact</Link>
+                    <Link className="nav-link a" href="#">Contact</Link>
                 </li>
                
                 </ul>
