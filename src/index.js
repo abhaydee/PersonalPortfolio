@@ -8,6 +8,7 @@ import Resume from './Components/Resume';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import logo from './img/logo.png'
+import About from './Components/About';
 const routing=(
     <div>
        <BrowserRouter>
@@ -22,16 +23,16 @@ const routing=(
                 <div className="mr-auto"></div>
                 <ul className="navbar-nav">
                 <li className="nav-item active">
-                    <Link className="nav-link a" href="#">Home</Link>
+                    <Link className="nav-link a" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link a" href="#">About</Link>
+                    <Link className="nav-link a" to="/About">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link a"  href="#">Projects</Link>
+                    <Link className="nav-link a"  href="/Projects">Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link a" href="#">Contact</Link>
+                    <Link className="nav-link a" href="/Contact">Contact</Link>
                 </li>
                
                 </ul>
@@ -43,6 +44,8 @@ const routing=(
        <Route exact path="/Resume" component={Resume}></Route>
        <Route exact path="/Projects" component={Projects}></Route>
        <Route exact path="/Contact" component={Contact}></Route>
+       <Route exact path="/About" component={About}></Route>
+
        </BrowserRouter> 
     </div>
 )
