@@ -8,13 +8,15 @@ export default class Projects extends Component {
                  <div className="row">
                     <div className="col-xl-6 col-lg-12 col-md-12">
                        <div className="row">
-                            <div className="col-lg-4 col-md-4">
-                                
+                            <div className="col-lg-4 col-md-4 col-md-6">
+                               <div className="single-brand">
+                                   
+                               </div>
                             </div> 
-                            <div className="col-lg-4 col-md-4">
+                            <div className="col-lg-4 col-md-4 col-md-6">
                                 
                             </div>  
-                            <div className="col-lg-4 col-md-4">
+                            <div className="col-lg-4 col-md-4 col-md-6">
                                 
                             </div>    
                         </div> 
