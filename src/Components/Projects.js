@@ -7,63 +7,73 @@ import reduxsaga from '../img/redux-saga.png'
 import reactnative from '../img/react-native.jpg'
 import angular from '../img/angular.png'
 import node from '../img/node.png'
-
+import avatar from '../img/avatar.jpg'
+import '../App.css'
 export default class Projects extends Component {
+
     render() {
         return (
+        <section className="site-main">
           <section className="brand-area">
              <div className="container-fluid">
-                 <div className="row">
+                 <div className="row first-row">
                     <div className="col-xl-6 col-lg-12 col-md-12">
                        <div className="row">
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={d} width="50%" height="50%" alt="html5-logo"></img>
+                                   <img src={d}  alt="html5-logo"></img>
                                </div>
                             </div>
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={css} width="50%" height="50%" alt="css-logo"></img>
+                                   <img src={css}  alt="css-logo"></img>
                                </div>
                             </div> 
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={js} width="50%" height="50%" alt="js-logo"></img>
+                                   <img src={js}  alt="js-logo"></img>
                                </div>
                             </div>  
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={react} width="50%" height="50%" alt="react-logo"></img>
+                                   <img src={react}  alt="react-logo"></img>
                                </div>
                             </div>  
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={reduxsaga} width="50%" height="50%" alt="reduxsaga-logo"></img>
+                                   <img src={reduxsaga}  alt="reduxsaga-logo"></img>
                                </div>
                             </div>  
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={reactnative} width="50%" height="50%" alt="reactnative-logo"></img>
+                                   <img src={reactnative}  alt="reactnative-logo"></img>
                                </div>
                             </div>  
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={angular} width="50%" height="50%" alt="angular-logo"></img>
+                                   <img src={angular}  alt="angular-logo"></img>
                                </div>
                             </div>  
                             <div className="col-lg-4 col-md-4 col-md-6">
                                <div className="single-brand">
-                                   <img src={node} width="50%" height="50%" alt="node-logo"></img>
+                                   <img src={node}  alt="node-logo"></img>
                                </div>
                             </div>  
                                
                         </div> 
                     </div>
-                    <div className="col-xl-6 col-lg-12 col-md-12">
-                        
+                    <div className="col-xl-6 col-lg-12 col-md-12 right-side">
+                        <div className="d-flex flex-row name-area">
+                            <h2 className="name">Abhay Deshpande</h2>
+                            
+                        </div>
+                        <div className="d-flex flex-row ">
+                        <img src={avatar} className="avatar"></img>
+                        </div>
                     </div>
                 </div>
             </div> 
+          </section>
           </section>
         )
     }
