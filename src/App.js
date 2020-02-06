@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import banner from './img/banner/banner-image.png'
 import './App.css';
 import About from './Components/About';
+import Projects from './Components/Projects';
 
 class App extends Component{
   render(){
@@ -33,6 +34,7 @@ class App extends Component{
          </main>
       </div>
       <About></About>
+      <Projects></Projects>
       </div>
      
     )

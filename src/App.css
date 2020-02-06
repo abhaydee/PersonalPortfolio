@@ -77,3 +77,9 @@ padding: 8rem 5rem;
   letter-spacing: 30px;
 
 }
+
+.site-main .about-area .paragraph .para{
+  font-family: var(--roboto);
+  line-height: 25px;
+  color: var(--text-color);
+}
