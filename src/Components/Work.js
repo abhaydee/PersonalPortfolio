@@ -13,11 +13,25 @@ export default class Work extends Component {
                         <div className="col-md-6 col-sm-12 hover">
                             <a className="click" href="#">
                                 <img className="project-image" alt="memory-game" src={mm1} ></img>
+                                <h2 className="project-name">Memory-Game</h2>
                             </a>
                         </div>
                         <div className="col-md-6 col-sm-12 hover">
                             <a className="click" href="#">
                                 <img className="project-image" alt="classic-arcade-game" src={classic1} ></img>
+                                <h2 className="project-name">Classic-Arcade-Game</h2>
+                            </a>
+                        </div>
+                        <div className="col-md-6 col-sm-12 hover">
+                            <a className="click" href="#">
+                                <img className="project-image" alt="memory-game" src={mm1} ></img>
+                                <h2 className="project-name">Memory-Game</h2>
+                            </a>
+                        </div>
+                        <div className="col-md-6 col-sm-12 hover">
+                            <a className="click" href="#">
+                                <img className="project-image" alt="classic-arcade-game" src={classic1} ></img>
+                                <h2 className="project-name">Classic-Arcade-Game</h2>
                             </a>
                         </div>
                     </div>
