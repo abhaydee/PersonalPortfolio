@@ -84,13 +84,13 @@ padding: 8rem 5rem;
   color: var(--text-color);
 }
 
-.name-area{
+.right-side{
   font-family: var(--roboto);
-  margin-left: 20%;
+
 }
 
 .site-main .brand-area{
-  padding: 1rem 20rem;
+  padding: 1rem 0rem;
   margin-bottom: 4rem;
 }
 .site-main .brand-area .first-row .col-lg-4{
@@ -101,7 +101,7 @@ padding: 8rem 5rem;
 
 .site-main .brand-area .first-row .col-lg-4> .single-brand{
   text-align: center;
-  padding: 1.8rem 0rem;
+  padding: 1rem 0rem;
   margin: .9rem 0;
   width: 180px;
   height: 100px;
@@ -130,3 +130,4 @@ padding: 8rem 5rem;
   box-shadow: var(--box-shadow);
   transform: scale(1);
 }
+

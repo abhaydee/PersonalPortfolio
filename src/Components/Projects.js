@@ -68,7 +68,7 @@ export default class Projects extends Component {
                             
                         </div>
                         <div className="d-flex flex-row ">
-                        <img src={avatar} className="avatar"></img>
+                        <img src={avatar} alt="profile" className="avatar"></img>
                         </div>
                     </div>
                 </div>
