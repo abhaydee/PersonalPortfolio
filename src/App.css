@@ -131,3 +131,7 @@ padding: 8rem 5rem;
   transform: scale(1);
 }
 
+.project-image{
+  width: 100%;
+  margin: 10%;
+}

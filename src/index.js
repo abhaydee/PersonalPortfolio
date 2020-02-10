@@ -9,6 +9,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import logo from './img/logo.png'
 import About from './Components/About';
+import Work from './Components/Work';
 const routing=(
     <div>
        <BrowserRouter>
@@ -29,10 +30,13 @@ const routing=(
                     <Link className="nav-link a" to="/About">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link a"  href="/Projects">Projects</Link>
+                    <Link className="nav-link a"  href="/Projects">Tech Stack</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link a" href="/Contact">Contact</Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link a" href="/Work">MY-Work</Link>
                 </li>
                
                 </ul>
@@ -45,6 +49,7 @@ const routing=(
        <Route exact path="/Projects" component={Projects}></Route>
        <Route exact path="/Contact" component={Contact}></Route>
        <Route exact path="/About" component={About}></Route>
+       <Route exact path="/Work" component={Work}></Route>
 
        </BrowserRouter> 
     </div>
