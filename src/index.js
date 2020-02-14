@@ -30,13 +30,13 @@ const routing=(
                     <Link className="nav-link a" to="/About">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link a"  href="/Projects">Tech Stack</Link>
+                    <Link className="nav-link a"  to="/Projects">Tech Stack</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link a" href="/Contact">Contact</Link>
+                    <Link className="nav-link a" to="/Contact">Contact</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link a" href="/Work">MY-Work</Link>
+                    <Link className="nav-link a" to="/Work">MY-Work</Link>
                 </li>
                
                 </ul>

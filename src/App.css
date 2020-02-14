@@ -138,9 +138,11 @@ padding: 8rem 5rem;
 .click{
   text-align: center;
   color: #444444;
+  font-family: var(--roboto);
 
 }
 .click:hover{
   color: teal;
   border: none;
+  
 }
